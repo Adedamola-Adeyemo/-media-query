@@ -1,0 +1,131 @@
+html,body{
+    max-width:1440px;
+    margin: 0;
+    color:white;
+    font-size: 14px;
+    padding: 5%;
+    background-color: black;
+}
+
+header{
+    
+    background-color: hsl(0, 100%, 74%) ;
+    
+}
+
+
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+p,button{
+    font-family: OpenSans;
+}
+
+h1{
+    font-family: Poppins;
+}
+.grid-container{
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: 40% 40%;
+    background: url(img/bg-intro-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+  
+}
+.intro{
+    width: 80%;
+    margin: auto;
+}
+.form{
+    width: 80%;
+    margin: auto;
+}
+
+h1,h2{
+    font-weight:700
+}
+
+button{
+    border: 0px;
+    border-radius: 5px;
+    padding: 2% 10%;
+    color: white;
+ 
+}
+.start{
+    background-color: hsl(248, 32%, 49%); 
+    color:white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4% 10%;
+}
+form{
+    padding:20px;
+    background-color: white;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+form p{
+    color: grey;
+    font-size: 8px;
+    text-align: center;
+}
+input{
+    width:90%;
+    padding: 10px 20px;
+    border: 0.5px solid rgb(243, 237, 237);
+    border-radius: 3px;
+
+}
+.submit{
+    background-color: hsl(154, 59%, 51%);
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 375px) {
+    html{
+        max-width:375px;
+    }
+
+    body{
+        padding: 0% 3%;
+        margin: 0;
+        text-align: center;
+    }
+    .main{
+        padding:2%;
+        margin-bottom: 50px;
+    }
+
+   
+    .grid-container{
+        display: grid;
+        width:90%;
+        grid-template-columns: 100%;
+        row-gap: 0;
+        padding: 0% 10% 10% 10%;
+        margin: auto;
+        height: fit-content;
+        
+    }
+    .intro{
+        margin-bottom: 10%;
+    }
+
+  }
