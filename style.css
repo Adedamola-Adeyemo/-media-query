@@ -98,28 +98,26 @@ a{
     color: white;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 771px) {
     html{
-        max-width:375px;
+        max-width:771px;
     }
 
     body{
-        padding: 0% 3%;
+        padding: 0% 1%;
         margin: 0;
         text-align: center;
     }
     .main{
-        padding:2%;
+        padding:1%;
         margin-bottom: 50px;
     }
 
    
     .grid-container{
-        display: grid;
+        display: block;
         width:90%;
-        grid-template-columns: 100%;
-        row-gap: 0;
-        padding: 0% 10% 10% 10%;
+        padding: 1%;
         margin: auto;
         height: fit-content;
         
